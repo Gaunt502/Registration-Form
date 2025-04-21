@@ -1,0 +1,106 @@
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 7
+   Case Problem 1
+
+   ACGIP Registration Validation Style Sheet
+   Author:Daniel Dameus 
+   Date:4/3/25   
+
+   Filename: cg_validate.css
+
+*/
+
+
+/* Validation Styles */
+input{
+   background-color: rgb(245, 245, 140);
+}
+
+select{
+   background-color: rgb(245, 245, 140);
+}
+
+textarea{
+   background-color: rgb(245, 245, 140);
+}
+
+#fnBox:focus:valid{
+   background-color: rgb(220, 255, 220);
+   background-image: url('cg_valid.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: right center;
+}
+
+#inBox:focus:valid{
+   background-color: rgb(220, 255, 220);
+   background-image: url('cg_valid.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+}
+
+#mailBox:focus:valid{
+   background-color: rgb(220, 255, 220);
+   background-image: url('cg_valid.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: right center;
+}
+
+#phoneBox:focus:valid{
+   background-color: rgb(220, 255, 220);
+   background-image: url('cg_valid.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: right center;
+}
+
+#idBox:focus:valid{
+   background-color: rgb(220, 255, 220);
+   background-image: url('cg_valid.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: right center;
+}
+
+#fnBox:focus:invalid{
+   background-color: rgb(255, 232, 232);
+   background-image: url('cg_invalid.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: right center;
+}
+
+#inBox:focus:invalid{
+   background-color: rgb(255, 232, 232);
+   background-image: url('cg_invalid.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: right center;
+}
+
+#mailBox:focus:invalid{
+   background-color: rgb(255, 232, 232);
+   background-image: url('cg_invalid.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: right center;
+}
+
+#phoneBox:focus:invalid{
+   background-color: rgb(255, 232, 232);
+   background-image: url('cg_invalid.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: right center;
+}
+
+#idBox:focus:invalid{
+   background-color: rgb(255, 232, 232);
+   background-image: url('cg_invalid.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: right center;
+}
